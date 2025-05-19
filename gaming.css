@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-}
-body{
-    display: grid;
-    overflow-x: hidden;
 }
 nav{
   position: fixed;
@@ -25,7 +19,7 @@ nav .menu{
   /* background-blend-mode: darken; */
   padding: 0 20px;
     border-radius: 25px;
-   box-shadow: 0 0 15px #ffd500b4;
+   box-shadow: 0 0 15px rgb(236, 6, 236);
     backdrop-filter: 12px;
 }
 .menu .logo a{
@@ -57,30 +51,21 @@ nav .menu{
   background: #fff;
   color: black;
 }
-.homepage{
-    background-image: url(images/wmremove-transformed\ \(2\).jpeg);
-    /* background-size: cover; */
-    background-color: rgba(0, 0, 0,0.7);
-    background-blend-mode: darken;
-    height: 100vh;
+.games {
+    place-items: center;
+    padding-top: 18%;
+    color: white;
+}
+.games h2{
+    font-size: 0.8in;
+}
+.games p{
+    font-size: 0.3in;
 }
 .about{
-    /* display: flex; */
-    /* align-items: center; */
-    margin-top: 18%;
-    /* margin-left: 27%; */
-    
-    font-size: 0.4in;
-    color: white;
-   
-}
-.grabber{
-place-items: center;
-}
-.about h2 +h2{
-    font-size: 0.28in;
-    color: white;
-    /* place-items: center; */
+    background-image: url(images/mind.jpg);
+    background-size: cover;
+    height: 100vh;
 }
  .about button{
   padding: 10px 40px;
@@ -91,88 +76,6 @@ place-items: center;
   box-shadow: 0 0 25px black;
   margin-left: 45%;
  }
-.working{
-    margin-top: 12%;
-}
-.work{
-    place-items: center;
-    margin-bottom: 7%;
-}
-.work h1{
-  font-size: 0.5in;
-}
-.grabber-image{
-    display: flex;
-    justify-content: space-around;
-}
-.grabber-image img{
-    width: 25vw;
-    height: 50vh;
-    /* border: 2px solid black; */
-    border-radius: 25px;
-     box-shadow: 0 0 25px black;
-    /* background-color:black; */
-}
-.gallery{
-  display: flex;
-  justify-content: space-between;
-}
-.image1 img{
- width: 17vw;
-}
-.image2 img{
- width: 17vw;
-}
-.image3 img{
- width: 17vw;
-}
-.image3 h2{
-  margin-left: 20%;
-}
-.image4 img{
- width: 150%;
-}
-.image4 h2{
-  margin-left: 3%;
-}
-.image5 img{
- width: 160%;
-}
-.image5 h2{
-  margin-left: 40%;
-}
-.materials h1{
-  display: flex;
-  justify-content: center;
-  font-size: 0.4in;
-  text-transform: uppercase;
-  margin-bottom: 4%;
-}
-.materials{
-  width: 100%;
-  /* margin-left: 5%; */
-  margin-top: 10%;
-  background-color: black;
-  color: white;
-  padding: 5%;
-}
-.procedures{
-  display: flex;
-  justify-content: space-around;
-  margin-left: 10%;
-  margin-right: 10%;
-  gap: 15%;
-}
-.procedure{
-  margin-top: 12%;
-  margin-bottom: 10%;
-}
-.procedure h1{
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-  font-size: 0.4in;
-}
 footer{
   width: 100%;
   /* position: fixed; */
@@ -320,7 +223,7 @@ footer a:hover{
 .third-project p{
   position: absolute;
   top: 37%;
-  left: 14%;
+  left: 22%;
   font-size: 0.3in;
   color: white;
   font-weight: 900;
@@ -336,7 +239,7 @@ footer a:hover{
 .fourth-project p{
   position: absolute;
   top: 37%;
-  left: 14%;
+  left: 22%;
   font-size: 0.3in;
   color: white;
   font-weight: 900;
@@ -353,4 +256,3 @@ footer a:hover{
   text-transform: uppercase;
   margin-bottom: 7%;
 }
-
