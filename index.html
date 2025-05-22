@@ -31,8 +31,15 @@
     <div class="title">Creative website spartan portal</div>
     <div class="sub_title">Pure System thinking and inovations</div>
     <div class="btns">
-     <button><a href="projects.html">Learn More</a></button>
-     <a href="#topic"> <button>Subscribe</button></a>
+     
+      <button onclick="myFunction()" class="dropbtn">Learn More</button>
+     <div id="myDropdown" class="dropdown-content">
+     
+    <a href="projects.html">grabber-project</a>
+    <a href="gaming.html">Evolution Odyssey</a>
+    
+    </div>
+      <a href="#topic"> <button>Subscribe</button></a>
     </div>
 </div>
     <div class="mission"id="mission">
@@ -68,7 +75,23 @@
     </div>
   </div>
 </div>
-
+<script>
+  function myFunction(){
+    document.getElementById("mydropdown").classList.toggle("show")
+  }
+  window.onclick = function(event){
+    if(!event.target.matches('.dropbtn')){
+      var dropdowns= document.getElementsByClassName("drowndown-content");
+      var i;
+      for(i=0;i<dropdowns.length;i++){
+        var openDropdown = dropdowns[i];
+        if(openDropdown.classList.contains('show')){
+          openDropdown.classList.remove('show')
+        }
+      }
+    }
+  }
+ </script>
    <footer>
    <div class="content">
      <div class="left box">
@@ -115,5 +138,6 @@
      <p>Copyright © 2025 <a href="#">SpartanLab</a> All rights reserved</p>
    </div>
  </footer>
+ 
 </body>
 </html>
