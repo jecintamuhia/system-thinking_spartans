@@ -28,21 +28,21 @@ body{
     padding-bottom: 20px;
 }
 nav{
-  /* position: fixed; */
+  
   width: 80%;
   padding: 10px 0;
   margin-left: 10%;
-  /* z-index: 12; */
+  
 }
 nav .menu{
-  /* max-width: 1250px; */
+ 
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
    background-color:black;
    opacity: 0.5;
-  /* background-blend-mode: darken; */
+  
   padding: 0 20px;
     border-radius: 25px;
    box-shadow: 0 0 15px #ffd500b4;
