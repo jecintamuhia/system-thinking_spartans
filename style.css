@@ -55,6 +55,10 @@ nav .menu{
   background: #fff;
   color: black;
 }
+.mission{
+    margin-top: 10%;
+    
+}
 .img{
   background: url('images/wmremove-transformed.jpeg')no-repeat;
   width: 100%;
@@ -130,7 +134,7 @@ nav .menu{
   padding-left: 0px;
   line-height: 20px;
   color: white;
-  font-size: 14px;
+  font-size: 50px;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 40px;
@@ -177,6 +181,7 @@ nav .menu{
   width:100%;
   height: 80vh;
   margin-bottom: 3%;
+  
 
 }
 
@@ -211,7 +216,8 @@ nav .menu{
 }
 
 .text-blk.heading {
-  font-size: 40px;
+  font-size: 75px;
+  display: flex;
   line-height: 64px;
   font-weight: 900;
   color: #00B2EB;
@@ -223,6 +229,7 @@ nav .menu{
 
 .text-blk.btn {
   color: rgb(0, 178, 235);
+  
   background-image: initial;
   background-position-x: initial;
   background-position-y: initial;
@@ -258,55 +265,62 @@ nav .menu{
 }
 
 .jecintaImg {
-  margin-top: 9%;
+  margin-top: 6%;
   margin-right: 40%;
   margin-bottom: 29%;
   margin-left: 4px;
-  height: 32%;
+  height: 10vw;
+  width:11vw;
   /* width: %; */
   position: absolute;
+  border-radius: 20px;
 }
 
 .dottyImg {
-  margin-top: 39%;
+  margin-top: 35%;
   margin-right: 0%;
   margin-bottom: 42%;
-  margin-left: 30%;
+  margin-left: 35%;
   width: 35%;
-  height: 39%;
-  position: absolute;
-}
-
-.groupImg {
-  width: 30%;
   height: 30%;
   position: absolute;
-  margin-top: 62%;
-  margin-right: 64%;
-  margin-bottom: 30%;
-  margin-left: 23%;
+  border-radius: 20px;
+}
+
+.rubyImg {
+  width: 33%;
+  height: 38%;
+  position: absolute;
+  margin-top: 55%;
+  margin-right: 0%;
+  margin-bottom: 29%;
+  border-radius: 20px;
   
 }
 
 .bonetteImg {
-  width: 34%;
-  height: 33%;
+  width: 39%;
+  height: 30%;
   position: absolute;
   /* margin-top: 62%; */
   margin-right: 27%;
   margin-bottom: 0px;
   margin-left: 60%;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.beckyImg{
+  margin-top: 62%;
+  margin-right: 0%;
+ 
+  margin-left: 70%;
+  width: 35%;
+  height: 29%;
+  position: absolute;
+  border-radius: 20px;
 }
 
-/* .groupImg {
-  position: absolute;
-  width: 33%;
-  height: 28%;
-  /* margin-top: 38%; */
-  /* margin-right: 27%;
-  margin-bottom: 41%;
-  margin-left: 60%;
-} */ */
+
 
 
 
