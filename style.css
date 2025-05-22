@@ -56,7 +56,8 @@ nav .menu{
   color: black;
 }
 .mission{
-    margin-top: 10%;
+    margin-top: 9%;
+    
     
 }
 .img{
@@ -68,9 +69,11 @@ nav .menu{
   position: relative;
   margin:-40px 0px 0px 222;
 }
-.mission{
+/* .mission{
     position: absolute;
-}
+} */
+
+
 .img::before{
   content: '';
   position: absolute;
@@ -167,22 +170,25 @@ nav .menu{
   background-position-x: initial;
   background-position-y: initial;
   background-size: initial;
-  background-repeat-x: initial;
-  background-repeat-y: initial;
+  border-radius: 20px;
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(31, 29, 29);
   padding-top: 10px;
   padding-right: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20%;
   padding-left: 20px;
   margin: 100px 180px 0 ;
-  width:100%;
+  
   height: 80vh;
-  margin-bottom: 3%;
+  margin-bottom: 10%;
   
 
+}
+.container-block .rightSide{
+  margin-top: -4%;
+  border-radius: 10px;
 }
 
 .container-block.Container {
@@ -329,7 +335,57 @@ nav .menu{
   line-height: 25px;
 }
 
-@media (max-width: 1024px) {
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.btns {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.show {display:block;}
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.btns:hover .dropdown-content {display: block;}
+
+
+.btns:hover .dropbtn {background-color: #3e8e41;}
+@media screen and (max-width: 600px) {
   .container-block.Container {
     flex-direction: column-reverse;
   }
@@ -360,9 +416,9 @@ nav .menu{
   }
 }
 
-@media (max-width: 768px) {
+@media  screen and (max-width: 768px) {
   .container-block.rightSide {
-    width: 450px;
+    width: 400px;
     height: 450px;
   }
 
@@ -371,7 +427,7 @@ nav .menu{
   }
 }
 
-@media (max-width: 500px) {
+@media screen and  (max-width: 500px) {
   .jecintaImg {
     display: none;
   }
@@ -449,17 +505,17 @@ body {
 
 
 footer{
-  width: 131.3%;
-  /* position: fixed; */
+ 
+  
   bottom: 0;
-  left: 9;
+  padding-left: 0%;
   background: #111;
-  object-fit: cover;
+  
 }
 footer .content{
   max-width: 1350px;
   margin: auto;
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -499,7 +555,7 @@ footer .content .right input[type="text"]{
   color: #d9d9d9;
   background: #000;
   border-radius: 5px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   font-size: 17px;
   border: 2px solid #222222;
 }
