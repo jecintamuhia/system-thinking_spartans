@@ -6,6 +6,10 @@
 body{
     display: grid;
     overflow-x: hidden;
+    margin: 0;
+}
+.button a{
+  rotate: 90deg;
 }
 nav{
   position: fixed;
