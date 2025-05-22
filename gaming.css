@@ -8,6 +8,9 @@ nav{
   margin-left: 10%;
   /* z-index: 12; */
 }
+body{
+  margin: 0;
+}
 nav .menu{
   /* max-width: 1250px; */
   margin: auto;
